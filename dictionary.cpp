@@ -277,6 +277,11 @@ class Object{
             pairs.merge(slice(index, this->size));
             return pairs;
         }
+
+        ~Object(){
+            delete[] this->keys;
+            delete[] this->values;
+        }
 };
 
 //any function
