@@ -232,6 +232,7 @@ int main(){
     Set<int>set(arr, 3);
     // set.display();
     Set<int>dummy({1, 2, 3, 3, 5, 6, 7});
+    Set<int>newSet = {9, 10, 12}; 
     dummy.display();
     set.clear();
     set.push(5);
